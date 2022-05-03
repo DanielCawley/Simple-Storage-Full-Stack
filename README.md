@@ -1,15 +1,10 @@
 # Basic Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a basic Hardhat use case. It is for me to practise using react, hardhat and solidity in a full stack project. I know its basic but you got to start somewhere!
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+To run it: 
+clone the repo
+open a hardhat local host with ```npx hardhat node```
+deploy the contract with ```npx hardhat run scripts\deploy.js --network localhost```
+input the address of the contract in the shell/cli into the variable ```simpleStorageAddress``` in App.js
+fire up the localhost with ```npm start```!
